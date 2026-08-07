@@ -1,5 +1,5 @@
 import services from "../../data/services";
-import SectionTitle from "../ui/sectionTitle";
+import SectionTitle from "../ui/SectionTitle";
 import ServiceCard from "../ui/serviceCard";
 
 function Services() {

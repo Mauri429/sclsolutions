@@ -1,6 +1,6 @@
 import process from "../../data/process";
-import SectionTitle from "../ui/sectionTitle";
-import ProcessCard from "../ui/processCard";
+import SectionTitle from "../ui/SectionTitle";
+import ProcessCard from "../ui/ProcessCard";
 
 function Process() {
   return (
