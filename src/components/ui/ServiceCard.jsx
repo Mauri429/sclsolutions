@@ -3,13 +3,22 @@ import { motion } from "framer-motion";
 function ServiceCard({ icon: Icon, title, description, color }) {
   return (
     <motion.article
-      whileHover={{ y: -8 }}
-      transition={{ duration: 0.25 }}
-      className="group relative rounded-2xl border border-slate-800 bg-slate-900 p-8 shadow-lg hover:border-green-500 min-h-[320px]"
+      whileHover={{ y: -4 }}
+      transition={{ duration: 0.2 }}
+      className="
+        group
+        relative
+        min-h-[320px]
+        rounded-2xl
+        border
+        border-slate-800
+        bg-slate-900
+        p-8
+        transition-colors
+        duration-200
+        hover:border-slate-700
+      "
     >
-      {/* Línea superior */}
-      <div className="absolute left-0 top-0 h-1 w-0 rounded-t-2xl bg-green-500 transition-all duration-300 group-hover:w-full" />
-
       {/* Icono */}
       <div
         className={`flex h-16 w-16 items-center justify-center rounded-full bg-slate-800 text-3xl ${color}`}

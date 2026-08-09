@@ -11,10 +11,10 @@ function Services() {
       <div className="mx-auto max-w-7xl px-6">
 
         <SectionTitle
-          subtitle="Lo que hacemos"
-          title="Nuestros Servicios"
+          subtitle="Nuestros servicios"
+          title="Todo lo que necesitás, en un solo lugar."
+          description="Conocé nuestras soluciones y encontrá el servicio que necesitás."
         />
-
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {services.map((service) => (
             <ServiceCard
