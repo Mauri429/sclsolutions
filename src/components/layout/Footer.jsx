@@ -30,11 +30,9 @@ function Footer() {
 
         </div>
 
-        <div className="mt-10 border-t border-slate-800 pt-6 text-center text-sm text-slate-500">
-
+        <p className="mx-auto max-w-md leading-6">
           © {new Date().getFullYear()} {company.name}. Todos los derechos reservados.
-
-        </div>
+        </p>
 
       </div>
 

@@ -18,7 +18,7 @@ function Hero() {
             Bienvenido
           </span>
 
-          <h1 className="text-white text-6xl font-black mt-5 leading-tight">
+          <h1 className="text-white text-5xl md:text-6xl font-black mt-5 leading-tight">
             Soluciones confiables
             <span className="text-green-500"> para tu hogar.</span>
           </h1>
