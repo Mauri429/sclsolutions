@@ -3,7 +3,10 @@ import { FaCheckCircle, FaWhatsapp } from "react-icons/fa";
 
 function Hero() {
   return (
-    <section id="inicio" className="min-h-screen flex items-center">
+    <section
+      id="inicio"
+      className="min-h-screen flex items-center pt-28 md:pt-0"
+    >
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center w-full">
 
         <motion.div

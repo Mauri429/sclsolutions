@@ -18,17 +18,15 @@ function Navbar() {
     <header
       className={`fixed top-0 left-0 z-50 w-full transition-all duration-300 ${
         scrolled
-          ? "bg-[#05091c]/90 backdrop-blur-md shadow-xl py-3"
-          : "bg-transparent py-6"
+          ? "bg-[#05091c]/90 backdrop-blur-md shadow-xl py-2 md:py-3"
+          : "bg-transparent py-3 md:py-6"
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6">
         <img
           src={`${import.meta.env.BASE_URL}logo/LogoHori.png`}
           alt="SCL Solutions"
-          className={`w-auto transition-all duration-300 ${
-            scrolled ? "h-24" : "h-24"
-          }`}
+          className="h-16 md:h-24 w-auto transition-all duration-300"
         />
 
         <nav className="hidden gap-10 font-semibold md:flex">
