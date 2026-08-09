@@ -11,7 +11,7 @@ function Footer() {
         <div className="flex flex-col items-center">
 
           <img
-            src="/logo/Logo.png"
+            src={`${import.meta.env.BASE_URL}logo/Logo.png`}
             alt={company.name}
             className="mb-5 h-16"
           />
