@@ -41,7 +41,7 @@ function Contact() {
 
             title="WhatsApp"
 
-            value={company.whatsapp}
+            value={company.whatsappDisplay}
 
             href={`https://wa.me/${company.whatsapp}?text=${message}`}
 

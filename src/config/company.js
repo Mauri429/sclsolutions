@@ -3,9 +3,11 @@ const company = {
 
   slogan: "Soluciones confiables para tu hogar.",
 
-  whatsapp: "598XXXXXXXX",
+  whatsapp: "59898431585",
 
-  email: "contacto@sclsolutions.com",
+  whatsappDisplay: "+598 98 431 585",
+
+  email: "SCLsolutions@hotmail.com",
 
   address: "Tacuarembo, Tacuarembo, Uruguay",
 
